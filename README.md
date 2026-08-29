@@ -38,15 +38,16 @@ The system is being designed for the **Arduino Nano 33 BLE Sense Rev2 / nRF52840
 
 ### ❤️ Heart Age Engine
 
-**Explainable Cardiovascular Risk ML System**
+**Explainable Cardiovascular Risk ML Project**
 
-A team ML project built using clinical data from **68,533 patient records**.
+A team ML project exploring cardiovascular risk patterns across **68,533 records** from a public cardiovascular dataset.
 
-I worked on the anomaly-detection pipeline using Local Outlier Factor across 11 clinical variables, identifying **3,427 multivariate outliers** and analysing cases where patient labels disagreed with the model's predicted heart age.
+I worked on the anomaly-detection pipeline using Local Outlier Factor across 11 health and lifestyle variables, identifying **3,427 multivariate outliers under a 5% contamination threshold**.
 
-I also built an interactive simulator that updates predicted heart age and SHAP-based factor contributions as different health inputs are changed.
+I also analysed cases where dataset labels and model-derived heart-age estimates disagreed, and built an interactive simulator for exploring how different inputs affect the model's output and feature contributions.
 
-`Python` `scikit-learn` `SHAP` `Jupyter`
+`Python` `scikit-learn` `SHAP` `LOF` `Jupyter`
+
 
 ---
 

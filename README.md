@@ -8,6 +8,18 @@ I enjoy building real-world applications and creating systems that use technolog
 
 ## 🚀 Featured Projects
 
+☀️ HeatShift
+
+Human-Governed AI Heat-Safety Operations Platform
+
+Built an end-to-end decision-support platform for outdoor worksites that converts live WBGT heat observations into validated heat-safe work plans.
+
+The system combines deterministic safety rules, automated replanning, independent validation, supervisor approval, multilingual worker notifications and auditable decision records. It uses real Singapore environmental data and keeps safety-critical decisions outside the LLM, with human approval required before a proposed plan can take effect.
+
+TypeScript React Python Cloudflare Workers AWS Lambda Amazon Bedrock DynamoDB Agentic AI
+
+Status: Working prototype
+
 ### 🖥️ SoCPerfSim
 
 **C++ Memory-System Performance Simulator**

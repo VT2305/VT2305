@@ -6,7 +6,7 @@ My projects focus on practical engineering questions: where deterministic logic 
 
 ## Featured projects
 
-### [HeatShift — decision support for heat-aware work planning](https://github.com/VT2305/heatshift-agent)
+### [HeatShift - decision support for heat-aware work planning](https://github.com/VT2305/heatshift-agent)
 
 A FastAPI application combining versioned rules, OR-Tools CP-SAT scheduling, validation, supervisor approval and an audit trail. Optional Bedrock/AgentCore integrations sit alongside a local demo.
 
@@ -15,7 +15,7 @@ A FastAPI application combining versioned rules, OR-Tools CP-SAT scheduling, val
 
 `Python` · `FastAPI` · `OR-Tools` · `SQLite` · `Agentic AI`
 
-### [SoCPerfSim — C++ memory-system simulator](https://github.com/VT2305/socperfsim)
+### [SoCPerfSim - C++ memory-system simulator](https://github.com/VT2305/socperfsim)
 
 A trace-driven L1/L2/DRAM simulator with configurable caches, replacement policies, dirty evictions and JSON metrics. Python tools generate synthetic workloads and automate configuration sweeps.
 
@@ -24,7 +24,7 @@ A trace-driven L1/L2/DRAM simulator with configurable caches, replacement polici
 
 `C++17` · `CMake` · `Python` · `Performance modelling`
 
-### [Heart Age Engine — explainable ML exploration](https://github.com/VT2305/heart-age-engine)
+### [Heart Age Engine - explainable ML exploration](https://github.com/VT2305/heart-age-engine)
 
 A public refactor of a four-person NTU project exploring cardiovascular data. My coursework contributions focused on LOF anomaly detection, label/model disagreement analysis and an interactive simulator.
 
@@ -33,7 +33,7 @@ A public refactor of a four-person NTU project exploring cardiovascular data. My
 
 `Python` · `scikit-learn` · `SHAP` · `Streamlit`
 
-### [KinetiQ Edge — movement-sensing prototype](https://github.com/VT2305/kinetiq-edge)
+### [KinetiQ Edge - movement-sensing prototype](https://github.com/VT2305/kinetiq-edge)
 
 An early prototype combining a React dashboard, BMI270 serial-acquisition scaffold and a subject-grouped random-forest baseline.
 

@@ -1,109 +1,56 @@
 # Hi, I'm Vridhi 👋
 
-I'm an Electrical & Electronic Engineering student interested in **AI/ML, embedded systems, computer architecture and intelligent systems**.
+I'm an Electrical & Electronic Engineering undergraduate at NTU, exploring **software engineering, applied ML and embedded systems**.
 
-I enjoy building real-world applications and creating systems that use technology to solve practical problems. I like taking ideas beyond just training a model - understanding how the system works, integrating it into a usable application, measuring its performance, and thinking about how it can make a meaningful difference in the real world.
+My projects focus on practical engineering questions: where deterministic logic belongs in an AI system, how to evaluate models without leakage, and how memory architecture affects performance.
 
----
+## Featured projects
 
-## 🚀 Featured Projects
+### [HeatShift — decision support for heat-aware work planning](https://github.com/VT2305/heatshift-agent)
 
-**Repository status:** HeatShift and Heart Age Engine are being prepared for reproducible public release. Their current uploads are incomplete; some source folders and tests described in their READMEs are not yet included. SoCPerfSim and KinetiQ Edge are ongoing projects without public repositories linked here.
+A FastAPI application combining versioned rules, OR-Tools CP-SAT scheduling, validation, supervisor approval and an audit trail. Optional Bedrock/AgentCore integrations sit alongside a local demo.
 
-### ☀️ [HeatShift](https://github.com/VT2305/HeatShift)
+**Engineering focus:** separating optimisation and validation from LLM explanations.  
+**Verified locally:** 12 tests passed. AWS deployment and operational validation remain separate work.
 
-**Human-Governed AI Heat-Safety Operations Platform**
+`Python` · `FastAPI` · `OR-Tools` · `SQLite` · `Agentic AI`
 
-Built an end-to-end decision-support platform for outdoor worksites that converts live WBGT heat observations into validated heat-safe work plans.
+### [SoCPerfSim — C++ memory-system simulator](https://github.com/VT2305/socperfsim)
 
-The system combines deterministic safety rules, automated replanning, independent validation, supervisor approval, multilingual worker notifications and auditable decision records. It uses real Singapore environmental data and keeps safety-critical decisions outside the LLM, with human approval required before a proposed plan can take effect.
+A trace-driven L1/L2/DRAM simulator with configurable caches, replacement policies, dirty evictions and JSON metrics. Python tools generate synthetic workloads and automate configuration sweeps.
 
-TypeScript React Python Cloudflare Workers AWS Lambda Amazon Bedrock DynamoDB Agentic AI
+**Engineering focus:** understanding the cost of data movement.  
+**Verified locally:** Release build, cache tests, demo trace and a 36-configuration sweep completed. The model is educational, not hardware-calibrated.
 
-**Status**: Working prototype
+`C++17` · `CMake` · `Python` · `Performance modelling`
 
-### 🖥️ SoCPerfSim
+### [Heart Age Engine — explainable ML exploration](https://github.com/VT2305/heart-age-engine)
 
-**C++ Memory-System Performance Simulator**
+A public refactor of a four-person NTU project exploring cardiovascular data. My coursework contributions focused on LOF anomaly detection, label/model disagreement analysis and an interactive simulator.
 
-Currently designing a trace-driven simulator for configurable **L1/L2 caches and DRAM**, with support for changing cache size, associativity, line size, replacement policy, latency and bandwidth.
+**Engineering focus:** reusable preprocessing, a chronological-age leakage guardrail, SHAP explanations and explicit model limitations.  
+**Verified locally:** 4 unit tests and lint checks passed. Full-dataset results require the separately supplied dataset.
 
-The goal is to use Python-based design-space sweeps to compare metrics such as cache hit rate, AMAT, memory traffic, stall cycles and simulated execution time across different workloads.
+`Python` · `scikit-learn` · `SHAP` · `Streamlit`
 
-`C++17` `Python` `Computer Architecture` `Performance Modeling`
+### [KinetiQ Edge — movement-sensing prototype](https://github.com/VT2305/kinetiq-edge)
 
-**Status:** In development
+An early prototype combining a React dashboard, BMI270 serial-acquisition scaffold and a subject-grouped random-forest baseline.
 
----
+**Engineering focus:** connecting embedded sensing with measurable ML evaluation.  
+**Verified locally:** dashboard production build and synthetic baseline run. The dashboard uses simulated values; on-device ML and BLE integration remain planned.
 
-### ⚡ KinetiQ Edge
+`React` · `Python` · `Arduino C++` · `nRF52840`
 
-**Embedded TinyML Movement-Sensing System**
+## Other work in progress
 
-Building an end-to-end six-axis IMU sensing pipeline covering data collection, 128-sample windowing, preprocessing, lightweight activity and posture classification, and embedded deployment.
+**Mosaic:** exploring catalogue-grounded shopping recommendations through structured requirements, hard constraints and product-level evidence.
 
-The system is being designed for the **Arduino Nano 33 BLE Sense Rev2 / nRF52840**, with evaluation focused on model accuracy, latency, memory usage and power consumption.
+## Tools and interests
 
-`Python` `TinyML` `IMU Signal Processing` `Embedded Systems`
+- **Programming:** Python, C/C++, SQL, MATLAB
+- **Software and data:** FastAPI, Git, pytest, NumPy, pandas
+- **ML:** scikit-learn, SHAP, model evaluation and explainability
+- **Exploring:** embedded AI, computer architecture, computer vision and robotics
 
-**Status:** Ongoing
-
----
-
-### ❤️ [Heart Age Engine](https://github.com/VT2305/heart-age-engine)
-
-**Explainable Cardiovascular Risk ML Project**
-
-A team ML project exploring cardiovascular risk patterns across **68,533 records** from a public cardiovascular dataset.
-
-I worked on the anomaly-detection pipeline using Local Outlier Factor across 11 health and lifestyle variables, identifying **3,427 multivariate outliers under a 5% contamination threshold**.
-
-I also analysed cases where dataset labels and model-derived heart-age estimates disagreed, and built an interactive simulator for exploring how different inputs affect the model's output and feature contributions.
-
-`Python` `scikit-learn` `SHAP` `LOF` `Jupyter`
-
-
----
-
-### 🛍️ Mosaic
-
-**Catalogue-Grounded AI Shopping Assistant**
-
-Building an AI shopping assistant that converts natural-language requests into structured requirements, applies hard product constraints and ranks catalogue items using product-level evidence.
-
-The focus is on making recommendations that are grounded in the actual catalogue rather than relying only on generated responses.
-
-`Python` `Claude API` `Constraint-Based Retrieval` `Ranking`
-
-**Status:** Ongoing
-
----
-
-## 🛠 Tech I Work With
-
-**Languages**
-Python · C · C++ · SQL · MATLAB
-
-**AI / ML**
-Machine Learning · scikit-learn · SHAP · TinyML · Generative AI · Large Language Models · Computer Vision · Natural Language Processing · Model Evaluation
-
-**Systems**
-Embedded Systems · Computer Architecture · Performance Modeling · IMU Signal Processing
-
-**Development & Data**
-Git · GitHub · Jupyter · NumPy · Pandas · Matplotlib
-
-**Familiar with**
-Microsoft Azure · Azure AI Services · AI Deployment & Monitoring
-
----
-
-## 🌱 Currently Exploring
-
-Embedded AI · Computer Architecture · ML Systems · Computer Vision · Robotics · Generative AI
-
----
-
-## 📫 Connect
-
-[LinkedIn](https://www.linkedin.com/in/vridhi-talwar-5a1312373)
+[Connect on LinkedIn](https://www.linkedin.com/in/vridhi-talwar-5a1312373)

@@ -8,7 +8,9 @@ I enjoy building real-world applications and creating systems that use technolog
 
 ## 🚀 Featured Projects
 
-### ☀️ HeatShift
+**Repository status:** HeatShift and Heart Age Engine are being prepared for reproducible public release. Their current uploads are incomplete; some source folders and tests described in their READMEs are not yet included. SoCPerfSim and KinetiQ Edge are ongoing projects without public repositories linked here.
+
+### ☀️ [HeatShift](https://github.com/VT2305/HeatShift)
 
 **Human-Governed AI Heat-Safety Operations Platform**
 
@@ -48,7 +50,7 @@ The system is being designed for the **Arduino Nano 33 BLE Sense Rev2 / nRF52840
 
 ---
 
-### ❤️ Heart Age Engine
+### ❤️ [Heart Age Engine](https://github.com/VT2305/heart-age-engine)
 
 **Explainable Cardiovascular Risk ML Project**
 
@@ -104,4 +106,4 @@ Embedded AI · Computer Architecture · ML Systems · Computer Vision · Robotic
 
 ## 📫 Connect
 
-[LinkedIn](YOUR_LINKEDIN_URL)
+[LinkedIn](https://www.linkedin.com/in/vridhi-talwar-5a1312373)

@@ -1,8 +1,8 @@
 # Hi, I'm Vridhi 👋
 
-I'm an Electrical & Electronic Engineering undergraduate at NTU, exploring **software engineering, applied ML and embedded systems**.
+I’m an Electrical & Electronic Engineering undergraduate at NTU with interests spanning AI, machine learning, data analytics, software engineering, embedded systems and biomedical applications.
 
-My projects focus on practical engineering questions: where deterministic logic belongs in an AI system, how to evaluate models without leakage, and how memory architecture affects performance.
+I enjoy turning data and ideas into practical solutions from explainable health analytics and intelligent applications to sensor-based systems, while exploring how software, hardware and AI can work together to solve real-world problems.
 
 ## Featured projects
 

@@ -1,0 +1,709 @@
+[
+  {
+    "id": "he-001",
+    "name": "Mosaic Aero ANC",
+    "category": "headphones",
+    "price_usd": 129,
+    "rating": 4.5,
+    "battery_hours": 34,
+    "features": [
+      "wireless",
+      "bluetooth",
+      "anc",
+      "over-ear",
+      "comfortable",
+      "foldable",
+      "microphone"
+    ],
+    "description": "Demonstration headphone with wireless, bluetooth, anc features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "he-002",
+    "name": "Mosaic Studio Loop",
+    "category": "headphones",
+    "price_usd": 179,
+    "rating": 4.7,
+    "battery_hours": 42,
+    "features": [
+      "wireless",
+      "bluetooth",
+      "anc",
+      "over-ear",
+      "multipoint",
+      "comfortable",
+      "usb-c"
+    ],
+    "description": "Demonstration headphone with wireless, bluetooth, anc features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "he-003",
+    "name": "Mosaic Commuter Lite",
+    "category": "headphones",
+    "price_usd": 69,
+    "rating": 4.1,
+    "battery_hours": 28,
+    "features": [
+      "wireless",
+      "bluetooth",
+      "lightweight",
+      "foldable",
+      "microphone"
+    ],
+    "description": "Demonstration headphone with wireless, bluetooth, lightweight features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "he-004",
+    "name": "Mosaic Focus Pro",
+    "category": "headphones",
+    "price_usd": 219,
+    "rating": 4.8,
+    "battery_hours": 50,
+    "features": [
+      "wireless",
+      "bluetooth",
+      "anc",
+      "over-ear",
+      "multipoint",
+      "long-battery",
+      "microphone"
+    ],
+    "description": "Demonstration headphone with wireless, bluetooth, anc features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "he-005",
+    "name": "Mosaic Quiet Shift",
+    "category": "headphones",
+    "price_usd": 149,
+    "rating": 4.6,
+    "battery_hours": 38,
+    "features": [
+      "wireless",
+      "bluetooth",
+      "anc",
+      "comfortable",
+      "quiet",
+      "foldable"
+    ],
+    "description": "Demonstration headphone with wireless, bluetooth, anc features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "he-006",
+    "name": "Mosaic Air Mini",
+    "category": "headphones",
+    "price_usd": 49,
+    "rating": 4.0,
+    "battery_hours": 16,
+    "features": [
+      "wireless",
+      "bluetooth",
+      "lightweight",
+      "compact"
+    ],
+    "description": "Demonstration headphone with wireless, bluetooth, lightweight features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "he-007",
+    "name": "Mosaic Runner Wave",
+    "category": "headphones",
+    "price_usd": 99,
+    "rating": 4.3,
+    "battery_hours": 13,
+    "features": [
+      "wireless",
+      "bluetooth",
+      "water-resistant",
+      "lightweight",
+      "microphone"
+    ],
+    "description": "Demonstration headphone with wireless, bluetooth, water-resistant features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "he-008",
+    "name": "Mosaic Desk Wired",
+    "category": "headphones",
+    "price_usd": 39,
+    "rating": 3.9,
+    "battery_hours": null,
+    "features": [
+      "over-ear",
+      "comfortable",
+      "microphone"
+    ],
+    "description": "Demonstration headphone with over-ear, comfortable, microphone features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "he-009",
+    "name": "Mosaic Travel Cloud",
+    "category": "headphones",
+    "price_usd": 159,
+    "rating": 4.5,
+    "battery_hours": 45,
+    "features": [
+      "wireless",
+      "bluetooth",
+      "anc",
+      "foldable",
+      "comfortable",
+      "long-battery"
+    ],
+    "description": "Demonstration headphone with wireless, bluetooth, anc features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "he-010",
+    "name": "Mosaic Game Horizon",
+    "category": "headphones",
+    "price_usd": 119,
+    "rating": 4.4,
+    "battery_hours": 24,
+    "features": [
+      "wireless",
+      "bluetooth",
+      "gaming",
+      "microphone",
+      "comfortable",
+      "rgb"
+    ],
+    "description": "Demonstration headphone with wireless, bluetooth, gaming features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "he-011",
+    "name": "Mosaic Meeting One",
+    "category": "headphones",
+    "price_usd": 89,
+    "rating": 4.2,
+    "battery_hours": 32,
+    "features": [
+      "wireless",
+      "bluetooth",
+      "multipoint",
+      "microphone",
+      "lightweight"
+    ],
+    "description": "Demonstration headphone with wireless, bluetooth, multipoint features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "he-012",
+    "name": "Mosaic Pulse Essential",
+    "category": "headphones",
+    "price_usd": 79,
+    "rating": 4.0,
+    "battery_hours": 29,
+    "features": [
+      "wireless",
+      "bluetooth",
+      "over-ear",
+      "comfortable"
+    ],
+    "description": "Demonstration headphone with wireless, bluetooth, over-ear features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "la-001",
+    "name": "Mosaic Nova 13",
+    "category": "laptops",
+    "price_usd": 699,
+    "rating": 4.2,
+    "battery_hours": 12,
+    "features": [
+      "portable",
+      "lightweight",
+      "usb-c",
+      "compact"
+    ],
+    "description": "Demonstration laptop with portable, lightweight, usb-c features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "la-002",
+    "name": "Mosaic Nova 14 Touch",
+    "category": "laptops",
+    "price_usd": 919,
+    "rating": 4.5,
+    "battery_hours": 14,
+    "features": [
+      "touchscreen",
+      "portable",
+      "usb-c",
+      "backlit"
+    ],
+    "description": "Demonstration laptop with touchscreen, portable, usb-c features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "la-003",
+    "name": "Mosaic Creator 16",
+    "category": "laptops",
+    "price_usd": 1399,
+    "rating": 4.7,
+    "battery_hours": 9,
+    "features": [
+      "usb-c",
+      "backlit",
+      "gaming"
+    ],
+    "description": "Demonstration laptop with usb-c, backlit, gaming features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "la-004",
+    "name": "Mosaic Daily 15",
+    "category": "laptops",
+    "price_usd": 549,
+    "rating": 4.0,
+    "battery_hours": 10,
+    "features": [
+      "usb-c",
+      "comfortable"
+    ],
+    "description": "Demonstration laptop with usb-c, comfortable features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "la-005",
+    "name": "Mosaic Swift Air",
+    "category": "laptops",
+    "price_usd": 1099,
+    "rating": 4.6,
+    "battery_hours": 18,
+    "features": [
+      "portable",
+      "lightweight",
+      "long-battery",
+      "fast-charging",
+      "usb-c"
+    ],
+    "description": "Demonstration laptop with portable, lightweight, long-battery features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "la-006",
+    "name": "Mosaic Study Go",
+    "category": "laptops",
+    "price_usd": 629,
+    "rating": 4.3,
+    "battery_hours": 14,
+    "features": [
+      "portable",
+      "usb-c",
+      "backlit"
+    ],
+    "description": "Demonstration laptop with portable, usb-c, backlit features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "la-007",
+    "name": "Mosaic Zen Fold",
+    "category": "laptops",
+    "price_usd": 1199,
+    "rating": 4.5,
+    "battery_hours": 13,
+    "features": [
+      "touchscreen",
+      "compact",
+      "portable",
+      "usb-c"
+    ],
+    "description": "Demonstration laptop with touchscreen, compact, portable features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "la-008",
+    "name": "Mosaic Value 14",
+    "category": "laptops",
+    "price_usd": 499,
+    "rating": 3.9,
+    "battery_hours": 8,
+    "features": [
+      "portable",
+      "usb-c"
+    ],
+    "description": "Demonstration laptop with portable, usb-c features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "la-009",
+    "name": "Mosaic Travel Book",
+    "category": "laptops",
+    "price_usd": 899,
+    "rating": 4.4,
+    "battery_hours": 17,
+    "features": [
+      "lightweight",
+      "portable",
+      "long-battery",
+      "usb-c"
+    ],
+    "description": "Demonstration laptop with lightweight, portable, long-battery features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "la-010",
+    "name": "Mosaic Gaming Arc",
+    "category": "laptops",
+    "price_usd": 1599,
+    "rating": 4.6,
+    "battery_hours": 7,
+    "features": [
+      "gaming",
+      "rgb",
+      "backlit",
+      "usb-c"
+    ],
+    "description": "Demonstration laptop with gaming, rgb, backlit features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "la-011",
+    "name": "Mosaic Business Core",
+    "category": "laptops",
+    "price_usd": 829,
+    "rating": 4.4,
+    "battery_hours": 16,
+    "features": [
+      "quiet",
+      "long-battery",
+      "usb-c",
+      "backlit"
+    ],
+    "description": "Demonstration laptop with quiet, long-battery, usb-c features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "la-012",
+    "name": "Mosaic Pocket 12",
+    "category": "laptops",
+    "price_usd": 579,
+    "rating": 4.1,
+    "battery_hours": 11,
+    "features": [
+      "compact",
+      "lightweight",
+      "portable",
+      "usb-c"
+    ],
+    "description": "Demonstration laptop with compact, lightweight, portable features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "ke-001",
+    "name": "Mosaic Click Pro",
+    "category": "keyboards",
+    "price_usd": 89,
+    "rating": 4.5,
+    "battery_hours": null,
+    "features": [
+      "mechanical",
+      "backlit",
+      "rgb",
+      "gaming"
+    ],
+    "description": "Demonstration keyboard with mechanical, backlit, rgb features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "ke-002",
+    "name": "Mosaic Quiet Keys",
+    "category": "keyboards",
+    "price_usd": 65,
+    "rating": 4.4,
+    "battery_hours": null,
+    "features": [
+      "wireless",
+      "bluetooth",
+      "quiet",
+      "compact"
+    ],
+    "description": "Demonstration keyboard with wireless, bluetooth, quiet features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "ke-003",
+    "name": "Mosaic Creator Mechanical",
+    "category": "keyboards",
+    "price_usd": 119,
+    "rating": 4.7,
+    "battery_hours": null,
+    "features": [
+      "mechanical",
+      "wireless",
+      "bluetooth",
+      "backlit"
+    ],
+    "description": "Demonstration keyboard with mechanical, wireless, bluetooth features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "ke-004",
+    "name": "Mosaic Mini 60",
+    "category": "keyboards",
+    "price_usd": 59,
+    "rating": 4.1,
+    "battery_hours": null,
+    "features": [
+      "mechanical",
+      "compact",
+      "gaming"
+    ],
+    "description": "Demonstration keyboard with mechanical, compact, gaming features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "ke-005",
+    "name": "Mosaic Office Soft",
+    "category": "keyboards",
+    "price_usd": 39,
+    "rating": 4.0,
+    "battery_hours": null,
+    "features": [
+      "quiet",
+      "ergonomic"
+    ],
+    "description": "Demonstration keyboard with quiet, ergonomic features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "ke-006",
+    "name": "Mosaic Ergo Curve",
+    "category": "keyboards",
+    "price_usd": 139,
+    "rating": 4.6,
+    "battery_hours": null,
+    "features": [
+      "ergonomic",
+      "wireless",
+      "comfortable"
+    ],
+    "description": "Demonstration keyboard with ergonomic, wireless, comfortable features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "ke-007",
+    "name": "Mosaic Travel Board",
+    "category": "keyboards",
+    "price_usd": 49,
+    "rating": 4.2,
+    "battery_hours": null,
+    "features": [
+      "wireless",
+      "bluetooth",
+      "lightweight",
+      "compact"
+    ],
+    "description": "Demonstration keyboard with wireless, bluetooth, lightweight features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "ke-008",
+    "name": "Mosaic RGB Arena",
+    "category": "keyboards",
+    "price_usd": 99,
+    "rating": 4.3,
+    "battery_hours": null,
+    "features": [
+      "mechanical",
+      "rgb",
+      "gaming",
+      "backlit"
+    ],
+    "description": "Demonstration keyboard with mechanical, rgb, gaming features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "ke-009",
+    "name": "Mosaic Silent Pro",
+    "category": "keyboards",
+    "price_usd": 109,
+    "rating": 4.7,
+    "battery_hours": null,
+    "features": [
+      "wireless",
+      "quiet",
+      "ergonomic"
+    ],
+    "description": "Demonstration keyboard with wireless, quiet, ergonomic features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "ke-010",
+    "name": "Mosaic Studio Mechanical",
+    "category": "keyboards",
+    "price_usd": 149,
+    "rating": 4.8,
+    "battery_hours": null,
+    "features": [
+      "mechanical",
+      "wireless",
+      "quiet",
+      "backlit"
+    ],
+    "description": "Demonstration keyboard with mechanical, wireless, quiet features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "ke-011",
+    "name": "Mosaic Desk Basic",
+    "category": "keyboards",
+    "price_usd": 29,
+    "rating": 3.8,
+    "battery_hours": null,
+    "features": [
+      "quiet"
+    ],
+    "description": "Demonstration keyboard with quiet features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "ke-012",
+    "name": "Mosaic Laptop Companion",
+    "category": "keyboards",
+    "price_usd": 79,
+    "rating": 4.3,
+    "battery_hours": null,
+    "features": [
+      "bluetooth",
+      "portable",
+      "compact"
+    ],
+    "description": "Demonstration keyboard with bluetooth, portable, compact features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "mi-001",
+    "name": "Mosaic Glide Air",
+    "category": "mice",
+    "price_usd": 39,
+    "rating": 4.2,
+    "battery_hours": null,
+    "features": [
+      "wireless",
+      "bluetooth",
+      "lightweight"
+    ],
+    "description": "Demonstration mouse with wireless, bluetooth, lightweight features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "mi-002",
+    "name": "Mosaic Ergo Palm",
+    "category": "mice",
+    "price_usd": 69,
+    "rating": 4.5,
+    "battery_hours": null,
+    "features": [
+      "ergonomic",
+      "wireless",
+      "comfortable"
+    ],
+    "description": "Demonstration mouse with ergonomic, wireless, comfortable features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "mi-003",
+    "name": "Mosaic Precision Pro",
+    "category": "mice",
+    "price_usd": 89,
+    "rating": 4.6,
+    "battery_hours": null,
+    "features": [
+      "gaming",
+      "lightweight",
+      "rgb"
+    ],
+    "description": "Demonstration mouse with gaming, lightweight, rgb features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "mi-004",
+    "name": "Mosaic Pocket Travel",
+    "category": "mice",
+    "price_usd": 29,
+    "rating": 4.0,
+    "battery_hours": null,
+    "features": [
+      "compact",
+      "wireless",
+      "portable"
+    ],
+    "description": "Demonstration mouse with compact, wireless, portable features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "mi-005",
+    "name": "Mosaic Silent Click",
+    "category": "mice",
+    "price_usd": 49,
+    "rating": 4.4,
+    "battery_hours": null,
+    "features": [
+      "quiet",
+      "wireless",
+      "comfortable"
+    ],
+    "description": "Demonstration mouse with quiet, wireless, comfortable features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "mi-006",
+    "name": "Mosaic Multi Device",
+    "category": "mice",
+    "price_usd": 79,
+    "rating": 4.5,
+    "battery_hours": null,
+    "features": [
+      "bluetooth",
+      "multipoint",
+      "wireless"
+    ],
+    "description": "Demonstration mouse with bluetooth, multipoint, wireless features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "mi-007",
+    "name": "Mosaic Studio Mouse",
+    "category": "mice",
+    "price_usd": 119,
+    "rating": 4.7,
+    "battery_hours": null,
+    "features": [
+      "ergonomic",
+      "wireless",
+      "usb-c"
+    ],
+    "description": "Demonstration mouse with ergonomic, wireless, usb-c features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "mi-008",
+    "name": "Mosaic Game Mini",
+    "category": "mice",
+    "price_usd": 59,
+    "rating": 4.2,
+    "battery_hours": null,
+    "features": [
+      "gaming",
+      "lightweight"
+    ],
+    "description": "Demonstration mouse with gaming, lightweight features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "mi-009",
+    "name": "Mosaic Budget Scroll",
+    "category": "mice",
+    "price_usd": 19,
+    "rating": 3.8,
+    "battery_hours": null,
+    "features": [
+      "compact"
+    ],
+    "description": "Demonstration mouse with compact features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "mi-010",
+    "name": "Mosaic Quiet Ergo",
+    "category": "mice",
+    "price_usd": 99,
+    "rating": 4.6,
+    "battery_hours": null,
+    "features": [
+      "ergonomic",
+      "quiet",
+      "wireless"
+    ],
+    "description": "Demonstration mouse with ergonomic, quiet, wireless features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "mi-011",
+    "name": "Mosaic Desk Pro",
+    "category": "mice",
+    "price_usd": 64,
+    "rating": 4.3,
+    "battery_hours": null,
+    "features": [
+      "comfortable",
+      "usb-c"
+    ],
+    "description": "Demonstration mouse with comfortable, usb-c features. Specifications and pricing are fictional."
+  },
+  {
+    "id": "mi-012",
+    "name": "Mosaic Portable Track",
+    "category": "mice",
+    "price_usd": 55,
+    "rating": 4.1,
+    "battery_hours": null,
+    "features": [
+      "portable",
+      "wireless",
+      "compact"
+    ],
+    "description": "Demonstration mouse with portable, wireless, compact features. Specifications and pricing are fictional."
+  }
+]

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0b1724" />
+  <title>Mosaic — Find the fit, not just a result</title>
+  <meta name="description" content="A catalogue-grounded AI shopping search prototype: explainable matching, constraint-first filtering, and traceable ranking." />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="nav shell">
+    <a class="brand" href="/" aria-label="Mosaic home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>MOSAIC<span class="brand-sub">/ LAB</span></a>
+    <div class="nav-right"><span class="status"><span class="pulse"></span> LOCAL DEMO</span><a href="/docs" class="docs">API docs ↗</a></div>
+  </header>
+  <main>
+    <section class="hero shell">
+      <div class="eyebrow"><span class="dash"></span> EXPLAINABLE PRODUCT SEARCH <span class="index">/ 001</span></div>
+      <h1>Find the fit.<br/><em>Not just a result.</em></h1>
+      <p class="intro">Tell us what matters. Mosaic extracts your intent, respects your non-negotiables, and ranks products with explanations you can inspect.</p>
+      <div class="hero-meta"><span>01 <b>UNDERSTAND</b></span><span>02 <b>FILTER</b></span><span>03 <b>RANK</b></span><span>04 <b>EXPLAIN</b></span></div>
+    </section>
+    <section class="workspace shell" aria-labelledby="search-title">
+      <div class="search-head"><div><span class="section-no">01 / SEARCH STUDIO</span><h2 id="search-title">What are you looking for?</h2></div><div class="total-pill" id="catalogue-count">48 fictional demo products</div></div>
+      <form id="search-form" class="search-form">
+        <label class="sr-only" for="query">Describe the product you need</label>
+        <textarea id="query" name="query" maxlength="500" rows="3" required placeholder="Wireless over-ear headphones under $180 with ANC, ideally comfortable and foldable…">Wireless over-ear headphones under $180 with ANC, ideally comfortable and foldable</textarea>
+        <div class="form-bottom"><div class="parser-wrap"><label for="parser">INTENT PARSER</label><select id="parser"><option value="rules">Offline · transparent rules</option><option value="anthropic">Claude · optional API</option></select></div><button id="search-button" type="submit">Explore matches <span aria-hidden="true">↗</span></button></div>
+      </form>
+      <div class="suggestions"><span>TRY AN EXAMPLE</span><button type="button" class="example" data-query="Wireless over-ear headphones under $180 with ANC, ideally comfortable and foldable">Travel headphones</button><button type="button" class="example" data-query="Lightweight laptop under $1000 with USB-C, preferably portable and long battery">Student laptop</button><button type="button" class="example" data-query="Wireless ergonomic mouse under $100, preferably quiet">Desk setup</button><button type="button" class="example" data-query="Mechanical keyboard below $120 without RGB, ideally quiet">Quiet keyboard</button></div>
+      <p class="data-banner"><span aria-hidden="true">ⓘ</span> This is a reproducible research demo. All 48 products, prices, ratings and specifications are <strong>fictional</strong> and must not be used for purchasing decisions.</p>
+    </section>
+    <section class="results shell" id="results-section" aria-labelledby="results-title">
+      <div class="results-top"><div><span class="section-no">02 / DECISION TRACE</span><h2 id="results-title">The shortlist</h2></div><p class="count" id="result-count">Search to see matched products</p></div>
+      <div id="error" role="alert" class="error" hidden></div>
+      <div id="intent-panel" class="intent-panel" hidden><div class="intent-title"><span>UNDERSTOOD REQUEST</span><span id="mode-used">RULES ENGINE</span></div><div id="intent-tags" class="intent-tags"></div><div id="count-message" class="small-message"></div></div>
+      <div id="cards" class="cards"><div class="initial-state"><div class="initial-orbit">◌</div><p>Your recommendations will appear here.</p><span>Every match must pass your hard constraints.</span></div></div>
+      <p class="footer-note">MOSAIC / REPRODUCIBLE AI SEARCH · BUILT FOR LEARNING, NOT COMMERCE.</p>
+    </section>
+  </main>
+  <script defer src="/app.js"></script>
+</body>
+</html>

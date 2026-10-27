@@ -1,0 +1,202 @@
+[
+  {
+    "query": "wireless headphones under $180",
+    "expected_category": "headphones",
+    "expected_max_price_usd": 180
+  },
+  {
+    "query": "headphones below $120 with ANC",
+    "expected_category": "headphones",
+    "expected_max_price_usd": 120
+  },
+  {
+    "query": "over-ear headset under 250",
+    "expected_category": "headphones",
+    "expected_max_price_usd": 250
+  },
+  {
+    "query": "comfortable earphones up to $150",
+    "expected_category": "headphones",
+    "expected_max_price_usd": 150
+  },
+  {
+    "query": "gaming headset under $120",
+    "expected_category": "headphones",
+    "expected_max_price_usd": 120
+  },
+  {
+    "query": "headphones at most USD 99",
+    "expected_category": "headphones",
+    "expected_max_price_usd": 99
+  },
+  {
+    "query": "budget of $55 for headphones",
+    "expected_category": "headphones",
+    "expected_max_price_usd": 55
+  },
+  {
+    "query": "looking for headphones",
+    "expected_category": "headphones",
+    "expected_max_price_usd": null
+  },
+  {
+    "query": "laptop under $900",
+    "expected_category": "laptops",
+    "expected_max_price_usd": 900
+  },
+  {
+    "query": "a portable notebook within $1200",
+    "expected_category": "laptops",
+    "expected_max_price_usd": 1200
+  },
+  {
+    "query": "lightweight laptop up to 1500",
+    "expected_category": "laptops",
+    "expected_max_price_usd": 1500
+  },
+  {
+    "query": "gaming laptop below $1600",
+    "expected_category": "laptops",
+    "expected_max_price_usd": 1600
+  },
+  {
+    "query": "notebook computer budget of $850",
+    "expected_category": "laptops",
+    "expected_max_price_usd": 850
+  },
+  {
+    "query": "laptop under $500",
+    "expected_category": "laptops",
+    "expected_max_price_usd": 500
+  },
+  {
+    "query": "touchscreen laptop at most $1200",
+    "expected_category": "laptops",
+    "expected_max_price_usd": 1200
+  },
+  {
+    "query": "laptops ideally good battery",
+    "expected_category": "laptops",
+    "expected_max_price_usd": null
+  },
+  {
+    "query": "mechanical keyboard under $100",
+    "expected_category": "keyboards",
+    "expected_max_price_usd": 100
+  },
+  {
+    "query": "quiet keyboard below $80",
+    "expected_category": "keyboards",
+    "expected_max_price_usd": 80
+  },
+  {
+    "query": "keyboard without rgb",
+    "expected_category": "keyboards",
+    "expected_max_price_usd": null
+  },
+  {
+    "query": "a wireless keyboard up to $150",
+    "expected_category": "keyboards",
+    "expected_max_price_usd": 150
+  },
+  {
+    "query": "keyboard below 70",
+    "expected_category": "keyboards",
+    "expected_max_price_usd": 70
+  },
+  {
+    "query": "ergonomic keyboard within $140",
+    "expected_category": "keyboards",
+    "expected_max_price_usd": 140
+  },
+  {
+    "query": "budget of USD 100 for a mechanical keyboard",
+    "expected_category": "keyboards",
+    "expected_max_price_usd": 100
+  },
+  {
+    "query": "compact keyboard",
+    "expected_category": "keyboards",
+    "expected_max_price_usd": null
+  },
+  {
+    "query": "ergonomic mouse under $100",
+    "expected_category": "mice",
+    "expected_max_price_usd": 100
+  },
+  {
+    "query": "wireless mice below 40",
+    "expected_category": "mice",
+    "expected_max_price_usd": 40
+  },
+  {
+    "query": "gaming mouse up to $90",
+    "expected_category": "mice",
+    "expected_max_price_usd": 90
+  },
+  {
+    "query": "bluetooth pointing device at most 60",
+    "expected_category": "mice",
+    "expected_max_price_usd": 60
+  },
+  {
+    "query": "mouse within $50",
+    "expected_category": "mice",
+    "expected_max_price_usd": 50
+  },
+  {
+    "query": "quiet mouse under $35",
+    "expected_category": "mice",
+    "expected_max_price_usd": 35
+  },
+  {
+    "query": "mice budget of 120",
+    "expected_category": "mice",
+    "expected_max_price_usd": 120
+  },
+  {
+    "query": "mouse without rgb",
+    "expected_category": "mice",
+    "expected_max_price_usd": null
+  },
+  {
+    "query": "a comfortable set of headphones under 170",
+    "expected_category": "headphones",
+    "expected_max_price_usd": 170
+  },
+  {
+    "query": "laptop for studying",
+    "expected_category": "laptops",
+    "expected_max_price_usd": null
+  },
+  {
+    "query": "keyboard that is backlit and quiet",
+    "expected_category": "keyboards",
+    "expected_max_price_usd": null
+  },
+  {
+    "query": "mice with usb-c",
+    "expected_category": "mice",
+    "expected_max_price_usd": null
+  },
+  {
+    "query": "headphones at least 30 hours battery under 180",
+    "expected_category": "headphones",
+    "expected_max_price_usd": 180
+  },
+  {
+    "query": "laptops within USD 1,200",
+    "expected_category": "laptops",
+    "expected_max_price_usd": 1200
+  },
+  {
+    "query": "wireless mouse $89 or less",
+    "expected_category": "mice",
+    "expected_max_price_usd": 89
+  },
+  {
+    "query": "mechanical keyboards max 160",
+    "expected_category": "keyboards",
+    "expected_max_price_usd": 160
+  }
+]

@@ -6,6 +6,15 @@ I enjoy turning data and ideas into practical solutions from explainable health 
 
 ## Featured projects
 
+### [Mosaic — catalogue-grounded AI shopping search](https://github.com/VT2305/VT2305/tree/main/projects/mosaic)
+
+A working natural-language shopping search prototype with structured intent extraction, hard-constraint filtering, interpretable product ranking and catalogue-grounded explanations. Includes a browser demo, FastAPI backend, a fictional 48-product catalogue and a reproducible evaluation suite.
+
+**Engineering focus:** separating non-negotiable product constraints from soft preferences, then making recommendation scores explainable.  
+**Verified locally:** 32 automated tests passed; 40 synthetic benchmark queries with no hard-constraint violations in returned results. This is a prototype, not a production search engine.
+
+`Python` · `FastAPI` · `Pydantic` · `Search & Ranking` · `Evaluation`
+
 ### [HeatShift - decision support for heat-aware work planning](https://github.com/VT2305/heatshift-agent)
 
 A FastAPI application combining versioned rules, OR-Tools CP-SAT scheduling, validation, supervisor approval and an audit trail. Optional Bedrock/AgentCore integrations sit alongside a local demo.
@@ -41,10 +50,6 @@ An early prototype combining a React dashboard, BMI270 serial-acquisition scaffo
 **Verified locally:** dashboard production build and synthetic baseline run. The dashboard uses simulated values; on-device ML and BLE integration remain planned.
 
 `React` · `Python` · `Arduino C++` · `nRF52840`
-
-## Other work in progress
-
-**Mosaic:** exploring catalogue-grounded shopping recommendations through structured requirements, hard constraints and product-level evidence.
 
 ## Tools and interests
 

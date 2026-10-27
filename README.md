@@ -6,7 +6,7 @@ I enjoy turning data and ideas into practical solutions from explainable health 
 
 ## Featured projects
 
-### [Mosaic — catalogue-grounded AI shopping search](https://github.com/VT2305/VT2305/tree/main/projects/mosaic)
+### [Mosaic - catalogue-grounded AI shopping search](https://github.com/VT2305/VT2305/tree/main/projects/mosaic)
 
 A working natural-language shopping search prototype with structured intent extraction, hard-constraint filtering, interpretable product ranking and catalogue-grounded explanations. Includes a browser demo, FastAPI backend, a fictional 48-product catalogue and a reproducible evaluation suite.
 
